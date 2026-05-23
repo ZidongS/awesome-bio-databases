@@ -76,3 +76,22 @@
 | 🧪 [SAbDab](https://opig.stats.ox.ac.uk/webapps/sabdab-sabpred/sabdab) | Structural Antibody Database — all publicly available antibody structures with annotations | 🤖 | [REST API](https://opig.stats.ox.ac.uk/webapps/sabdab-sabpred/sabdab/api/), [Downloads](https://opig.stats.ox.ac.uk/webapps/sabdab-sabpred/sabdab/downloads) |
 | 🧪 [SCOP](https://scop.mrc-lmb.cam.ac.uk) | Structural Classification of Proteins — hierarchical classification of protein folds and families | ⚠️ | [Downloads](https://scop.mrc-lmb.cam.ac.uk/downloads), web API limited |
 | 🧪 [SWISS-MODEL Repository](https://swissmodel.expasy.org/repository) | Homology-modelled protein structures for model organism proteomes | 🤖 | [REST API](https://swissmodel.expasy.org/docs/repository_help#api), [Downloads](https://swissmodel.expasy.org/repository) |
+
+## 🌿 Plants
+
+| Name | Description | Agent | Links |
+|------|-------------|-------|-------|
+| 🌿 [BAR](https://bar.utoronto.ca) | Bio-Analytic Resource for Plant Biology — Arabidopsis tools, expression data, and interaction viewers | ⚠️ | [Downloads](https://bar.utoronto.ca/), mostly web-based |
+| 🌿 [Ensembl Plants](https://plants.ensembl.org) | Ensembl genome browser specialized for plant genomes (67+ species) | 🤖 | [REST API](https://rest.ensembl.org), [FTP](https://ftp.ensemblgenomes.ebi.ac.uk/pub/plants/) |
+| 🌿 [Gramene](https://www.gramene.org) | Comparative plant genomics and pathway resource for crop plants (rice, maize, wheat, etc.) | 🤖 | [REST API](https://www.gramene.org/api), [Downloads](https://www.gramene.org/download) |
+| 🌿 [MaizeGDB](https://www.maizegdb.org) | Maize genetics and genomics database — comprehensive resource for Zea mays | ⚠️ | [Downloads](https://www.maizegdb.org/download), API limited |
+| 🌿 [Phytozome](https://phytozome-next.jgi.doe.gov) | Plant comparative genomics portal — 100+ assembled plant genomes with annotations | ⚠️ | [Bulk download](https://phytozome-next.jgi.doe.gov/download), no public REST API |
+| 🌿 [Plant Reactome](https://plantreactome.gramene.org) | Curated plant metabolic and signaling pathways in Reactome framework | 🤖 | [ContentService API](https://reactome.org/ContentService/), [Downloads](https://plantreactome.gramene.org/download) |
+| 🌿 [PlantGDB](https://www.plantgdb.org) | Plant Genome Database — EST assemblies, genome browsers for diverse plant species | ⚠️ | [FTP downloads](https://www.plantgdb.org/download/), no API |
+| 🌿 [PlantTFDB](https://planttfdb.gao-lab.org) | Plant Transcription Factor Database — curated TFs across 165 plant species | ⚠️ | [Downloads](https://planttfdb.gao-lab.org/download.php), web-based only |
+| 🌿 [PLAZA](https://bioinformatics.psb.ugent.be/plaza/) | Plant comparative genomics platform with gene families, orthology, and synteny across species | ⚠️ | [Bulk downloads](https://bioinformatics.psb.ugent.be/plaza/download/), no API |
+| 🌿 [PlncRNADB](https://www.plncrnadb.com) | Plant long non-coding RNA database with expression profiles, epigenetic marks, and functional annotations | ❌ | Web-based with search |
+| 🌿 [RAP-DB](https://rapdb.dna.affrc.go.jp) | Rice Annotation Project Database — high-quality annotation of the rice genome (Oryza sativa) | ⚠️ | [Downloads](https://rapdb.dna.affrc.go.jp/download/), no API |
+| 🌿 [SoyBase](https://www.soybase.org) | Soybean genetics and genomics database for Glycine max | ⚠️ | [Downloads](https://www.soybase.org/dl/), no public API |
+| 🌿 [TAIR](https://www.arabidopsis.org) | The Arabidopsis Information Resource — comprehensive model plant database for Arabidopsis thaliana | ⚠️ | [REST API](https://www.arabidopsis.org/tools/araport/), bulk download via request |
+| 🌿 [WheatOmics](http://wheatomics.sdau.edu.cn) | Wheat multi-omics database — transcriptome, proteome, metabolome for Triticum aestivum | ❌ | Web-based query only |
