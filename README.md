@@ -183,3 +183,20 @@
 | 🏥 [Open Targets Genetics](https://genetics.opentargets.org) | GWAS and functional genomics data for identifying drug targets from genetic evidence | 🤖 | [GraphQL API](https://api.genetics.opentargets.org/graphql), [Downloads](https://genetics.opentargets.org/downloads) |
 | 🏥 [Orphanet](https://www.orpha.net) | Portal for rare diseases and orphan drugs — disease classifications, epidemiological data, and expert centers | ⚠️ | [Downloads](https://www.orpha.net/consor/cgi-bin/Education_AboutOrphanet.php?lng=EN&stapage=ST_EDUCATION_ABOUTORPHANET_DOWNLOADS), no public API |
 | 🏥 [TCGA/GDC](https://portal.gdc.cancer.gov) | NCI Genomic Data Commons — unified repository for The Cancer Genome Atlas and other cancer genomics programs | 🤖 | [REST API](https://api.gdc.cancer.gov), [Downloads](https://portal.gdc.cancer.gov/repository) |
+
+## 🔗 Interaction & Network
+
+| Name | Description | Agent | Links |
+|------|-------------|-------|-------|
+| 🔗 [BioGRID](https://thebiogrid.org) | Curated biological interaction database — 2.5M+ protein, genetic, and chemical interactions across all species | 🤖 | [REST API](https://wiki.thebiogrid.org/doku.php/webservice), [Downloads](https://downloads.thebiogrid.org/BioGRID/) |
+| 🔗 [CORUM](http://mips.helmholtz-muenchen.de/corum/) | Comprehensive resource of manually annotated mammalian protein complexes | ⚠️ | [Downloads](http://mips.helmholtz-muenchen.de/corum/#download), no API |
+| 🔗 [DRKG](https://github.com/gnn4dr/DRKG) | Drug Repurposing Knowledge Graph — comprehensive biomedical KG for drug discovery and repurposing | ⚠️ | [Downloads](https://github.com/gnn4dr/DRKG#download), no public API |
+| 🔗 [Hetionet](https://het.io) | Heterogeneous knowledge graph integrating 47K nodes and 2.25M relationships across compounds, diseases, genes, and more | 🤖 | [Downloads](https://github.com/hetio/hetionet), API via Neo4j |
+| 🔗 [HIPPIE](http://cbdm-01.zdv.uni-mainz.de/~mschaefer/hippie/) | Human Integrated Protein-Protein Interaction rEference — scored human PPIs with context information | ⚠️ | [Downloads](http://cbdm-01.zdv.uni-mainz.de/~mschaefer/hippie/download.php), web-based API |
+| 🔗 [IID](http://iid.ophid.utoronto.ca) | Integrated Interactions Database — tissue-specific and species-specific protein interactions | ⚠️ | [Downloads](http://iid.ophid.utoronto.ca/download/), no public API |
+| 🔗 [IntAct](https://www.ebi.ac.uk/intact/) | EMBL-EBI molecular interaction database — curated protein-protein, protein-DNA, protein-small molecule interactions | 🤖 | [REST API](https://www.ebi.ac.uk/intact/webservice/), [FTP](https://ftp.ebi.ac.uk/pub/databases/intact/) |
+| 🔗 [PathwayCommons](https://www.pathwaycommons.org) | Aggregated public pathway data from 22 databases in BioPAX format | 🤖 | [REST API](https://www.pathwaycommons.org/pc2/), [Downloads](https://www.pathwaycommons.org/archives/) |
+| 🔗 [PrimeKG](https://www.denisf.org/post/primekg) | Precision Medicine Knowledge Graph — multimodal knowledge graph integrating 20+ biomedical resources | 🤖 | [Downloads](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IXA7BM), API via Neo4j |
+| 🔗 [STRING](https://string-db.org) | Search Tool for the Retrieval of Interacting Genes/Proteins — known and predicted protein-protein interactions | 🤖 | [REST API](https://string-db.org/help/api/), [Downloads](https://string-db.org/cgi/download) |
+| 🔗 [TRRUST](https://www.grnpedia.org/trrust/) | Transcriptional Regulatory Relationships Unraveled by Sentence-based Text mining — human TF-target interactions | ⚠️ | [Downloads](https://www.grnpedia.org/trrust/download/), no API |
+| 🔗 [WikiPathways](https://wikipathways.org) | Community-curated biological pathway database in a wiki framework | 🤖 | [REST API](https://webservice.wikipathways.org), [Downloads](https://wikipathways.org/index.php/Download_Pathways) |
