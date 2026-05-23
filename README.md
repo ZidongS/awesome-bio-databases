@@ -95,3 +95,19 @@
 | 🌿 [SoyBase](https://www.soybase.org) | Soybean genetics and genomics database for Glycine max | ⚠️ | [Downloads](https://www.soybase.org/dl/), no public API |
 | 🌿 [TAIR](https://www.arabidopsis.org) | The Arabidopsis Information Resource — comprehensive model plant database for Arabidopsis thaliana | ⚠️ | [REST API](https://www.arabidopsis.org/tools/araport/), bulk download via request |
 | 🌿 [WheatOmics](http://wheatomics.sdau.edu.cn) | Wheat multi-omics database — transcriptome, proteome, metabolome for Triticum aestivum | ❌ | Web-based query only |
+
+## 🦠 Microbes & Viruses
+
+| Name | Description | Agent | Links |
+|------|-------------|-------|-------|
+| 🦠 [BacDive](https://bacdive.dsmz.de) | Bacterial Diversity database — standardized metadata for 90,000+ bacterial and archaeal strains | 🤖 | [REST API](https://api.bacdive.dsmz.de/), [Downloads](https://bacdive.dsmz.de/download) 🔑 |
+| 🦠 [BV-BRC](https://www.bv-brc.org) | Bacterial and Viral Bioinformatics Resource Center — integrated genomic and metadata for pathogens | 🤖 | [REST API](https://www.bv-brc.org/api), [Downloads](https://www.bv-brc.org/downloads) |
+| 🦠 [CARD](https://card.mcmaster.ca) | Comprehensive Antibiotic Resistance Database — curated resistance genes and mechanisms | 🤖 | [REST API](https://card.mcmaster.ca/api), [Downloads](https://card.mcmaster.ca/download) |
+| 🦠 [GISAID](https://gisaid.org) | Global Initiative on Sharing All Influenza Data — viral genome sequences (notably SARS-CoV-2 and influenza) | ⚠️ | 🔑 API requires registration and agreement; [Data access](https://gisaid.org/register/) |
+| 🦠 [Greengenes2](https://greengenes2.ucsd.edu) | Updated 16S rRNA reference database with whole-genome-enhanced taxonomy | 🤖 | [Downloads + API via Qiita/FTP](https://ftp.microbio.me/greengenes_release/) |
+| 🦠 [IMG/M](https://img.jgi.doe.gov) | Integrated Microbial Genomes & Microbiomes — JGI's metagenome analysis platform | ⚠️ | [REST API](https://img.jgi.doe.gov/docs/api), data download via JGI portal |
+| 🦠 [MGnify](https://www.ebi.ac.uk/metagenomics) | EBI metagenomics resource — free analysis and archiving of microbiome-derived sequences | 🤖 | [REST API](https://www.ebi.ac.uk/metagenomics/api/), [Downloads](https://www.ebi.ac.uk/metagenomics/download) |
+| 🦠 [MicrobiomeDB](https://microbiomedb.org) | Multi-omics microbiome data warehouse with integrated analysis tools | ⚠️ | [Downloads](https://microbiomedb.org/mbio/app/record/dataset), API limited |
+| 🦠 [SILVA](https://www.arb-silva.de) | Comprehensive ribosomal RNA gene database for all three domains of life | ⚠️ | [Downloads](https://www.arb-silva.de/download/), no public API |
+| 🦠 [VFDB](http://www.mgc.ac.cn/VFs/) | Virulence Factor Database — experimentally validated bacterial virulence factors | ⚠️ | [Downloads](http://www.mgc.ac.cn/VFs/download.htm), web-based API |
+| 🦠 [ViPR](https://www.viprbrc.org) | Virus Pathogen Resource — integrated data for human pathogenic viruses | ⚠️ | [Downloads](https://www.viprbrc.org/brc/publicData.spg), API via BV-BRC |
