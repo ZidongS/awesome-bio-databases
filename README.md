@@ -59,3 +59,20 @@
 | 🧬 [T2T Genome](https://github.com/marbl/CHM13) | Telomere-to-Telomere consortium — complete human genome assembly (CHM13) | ⚠️ | [Downloads](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html), no API |
 | 🧬 [UCSC Genome Browser](https://genome.ucsc.edu) | Interactive genome browser with comprehensive annotation tracks for human and model organisms | ⚠️ | [REST API](https://genome.ucsc.edu/goldenPath/help/api.html), [FTP downloads](https://hgdownload.soe.ucsc.edu/) |
 | 🧬 [UniProt](https://www.uniprot.org) | Comprehensive protein sequence and functional information database | 🤖 | [REST API](https://www.uniprot.org/help/api), [FTP](https://ftp.uniprot.org/pub/databases/uniprot/) |
+
+## 🧪 Protein & Structure
+
+| Name | Description | Agent | Links |
+|------|-------------|-------|-------|
+| 🧪 [AlphaFold DB](https://alphafold.ebi.ac.uk) | Predicted protein structures for 200M+ proteins from AlphaFold2, hosted by EMBL-EBI | 🤖 | [API docs](https://alphafold.ebi.ac.uk/api-docs), [Bulk download](https://ftp.ebi.ac.uk/pub/databases/alphafold/) |
+| 🧪 [CATH](https://www.cathdb.info) | Hierarchical classification of protein domain structures (Class, Architecture, Topology, Homology) | 🤖 | [REST API](https://www.cathdb.info/wiki/doku.php?id=api:rest_api), [Downloads](https://www.cathdb.info/download) |
+| 🧪 [ELM](http://elm.eu.org) | Eukaryotic Linear Motif resource — curated short linear motifs in eukaryotic proteins | ⚠️ | [Downloads](http://elm.eu.org/downloads), web API limited |
+| 🧪 [Human Protein Atlas](https://www.proteinatlas.org) | Protein expression across human tissues, cells, and cancer — immunohistochemistry and RNA-seq based | 🤖 | [REST API](https://www.proteinatlas.org/about/api), [Downloads](https://www.proteinatlas.org/about/download) |
+| 🧪 [InterPro](https://www.ebi.ac.uk/interpro/) | Integrative protein domain and family classification combining Pfam, PROSITE, SMART, and more | 🤖 | [REST API](https://www.ebi.ac.uk/interpro/api/), [FTP](https://ftp.ebi.ac.uk/pub/databases/interpro/) |
+| 🧪 [MobiDB](https://mobidb.org) | Database of intrinsically disordered proteins and protein disorder annotations | 🤖 | [REST API](https://mobidb.org/api_docs), [Downloads](https://mobidb.org/download) |
+| 🧪 [PDB](https://www.rcsb.org) | Worldwide Protein Data Bank — 3D structural data of proteins and nucleic acids | 🤖 | [REST API](https://data.rcsb.org/), [FTP download](https://ftp.wwpdb.org) |
+| 🧪 [Pfam](https://www.ebi.ac.uk/interpro/entry/pfam/) | Protein families database — multiple sequence alignments and hidden Markov models (now part of InterPro) | 🤖 | [InterPro API](https://www.ebi.ac.uk/interpro/api/), [FTP](https://ftp.ebi.ac.uk/pub/databases/Pfam/) |
+| 🧪 [PROSITE](https://prosite.expasy.org) | Database of protein domains, families, and functional sites with associated patterns and profiles | ⚠️ | [Downloads via FTP](https://ftp.expasy.org/databases/prosite/), no public API |
+| 🧪 [SAbDab](https://opig.stats.ox.ac.uk/webapps/sabdab-sabpred/sabdab) | Structural Antibody Database — all publicly available antibody structures with annotations | 🤖 | [REST API](https://opig.stats.ox.ac.uk/webapps/sabdab-sabpred/sabdab/api/), [Downloads](https://opig.stats.ox.ac.uk/webapps/sabdab-sabpred/sabdab/downloads) |
+| 🧪 [SCOP](https://scop.mrc-lmb.cam.ac.uk) | Structural Classification of Proteins — hierarchical classification of protein folds and families | ⚠️ | [Downloads](https://scop.mrc-lmb.cam.ac.uk/downloads), web API limited |
+| 🧪 [SWISS-MODEL Repository](https://swissmodel.expasy.org/repository) | Homology-modelled protein structures for model organism proteomes | 🤖 | [REST API](https://swissmodel.expasy.org/docs/repository_help#api), [Downloads](https://swissmodel.expasy.org/repository) |
