@@ -164,3 +164,22 @@
 | 💊 [STITCH](http://stitch.embl.de) | Search Tool for Interacting Chemicals — known and predicted chemical-protein interactions | ⚠️ | [Downloads](http://stitch.embl.de/cgi/download.pl), API via STRING |
 | 💊 [SuperDRUG2](http://cheminfo.charite.de/superdrug2) | Comprehensive database of approved and marketed drugs with their targets and side effects | ❌ | Web-based search and download |
 | 💊 [ZINC](https://zinc.docking.org) | Free database of commercially available compounds for virtual screening — 1.5B+ purchasable molecules | 🤖 | [REST API](https://zinc.docking.org/api/), [Downloads](https://zinc.docking.org/substances/home/) |
+
+## 🏥 Disease & Clinical
+
+| Name | Description | Agent | Links |
+|------|-------------|-------|-------|
+| 🏥 [cBioPortal](https://www.cbioportal.org) | Open-source platform for interactive exploration of cancer genomics datasets from large-scale studies | 🤖 | [REST API](https://www.cbioportal.org/api/swagger-ui.html), [Downloads](https://www.cbioportal.org/datasets) |
+| 🏥 [ClinicalTrials.gov](https://clinicaltrials.gov) | NIH registry of clinical trials worldwide — 450,000+ studies in 220+ countries | 🤖 | [REST API v2](https://clinicaltrials.gov/api/v2/), [Downloads](https://clinicaltrials.gov/ct2/download) |
+| 🏥 [ClinVar](https://www.ncbi.nlm.nih.gov/clinvar/) | NCBI database of clinically significant human genetic variants with assertions of pathogenicity | 🤖 | [E-Utilities API](https://www.ncbi.nlm.nih.gov/books/NBK25501/), [FTP](https://ftp.ncbi.nlm.nih.gov/pub/clinvar/) |
+| 🏥 [COSMIC](https://cancer.sanger.ac.uk/cosmic) | Catalogue of Somatic Mutations in Cancer — comprehensive somatic mutation database | ⚠️ | [Downloads](https://cancer.sanger.ac.uk/cosmic/download) (registration + license required) |
+| 🏥 [DepMap](https://depmap.org) | Cancer Dependency Map — genome-scale CRISPR and RNAi screens across 1,000+ cancer cell lines | 🤖 | [Downloads + Portal](https://depmap.org/portal/download/all/), API via data files |
+| 🏥 [DisGeNET](https://www.disgenet.org) | Knowledge platform integrating gene-disease associations, variant-disease links, and disease information | 🤖 | [REST API](https://www.disgenet.org/api/), [Downloads](https://www.disgenet.org/Download) 🔑 |
+| 🏥 [HPO](https://hpo.jax.org) | Human Phenotype Ontology — standardized vocabulary of phenotypic abnormalities for clinical genomics | 🤖 | [REST API](https://hpo.jax.org/api/hp/), [Downloads](https://hpo.jax.org/data/annotations) |
+| 🏥 [ICGC](https://dcc.icgc.org) | International Cancer Genome Consortium — genomic data from 25,000+ cancer cases across 50 tumor types | ⚠️ | [Downloads](https://dcc.icgc.org/releases), API access limited |
+| 🏥 [MIMIC-IV](https://physionet.org/content/mimiciv/) | Medical Information Mart for Intensive Care — de-identified ICU patient data from Beth Israel Deaconess | ⚠️ | [Downloads via PhysioNet](https://physionet.org/content/mimiciv/) (credentialed access + CITI training required) |
+| 🏥 [Monarch Initiative](https://monarchinitiative.org) | Integrative platform connecting genotypes, phenotypes, and diseases across species | 🤖 | [REST API](https://api.monarchinitiative.org/api), [Downloads](https://monarchinitiative.org/downloads) |
+| 🏥 [OMIM](https://www.omim.org) | Online Mendelian Inheritance in Man — authoritative catalog of human genes and genetic disorders | ⚠️ | [API](https://omim.org/api) (limited free tier), downloads restricted |
+| 🏥 [Open Targets Genetics](https://genetics.opentargets.org) | GWAS and functional genomics data for identifying drug targets from genetic evidence | 🤖 | [GraphQL API](https://api.genetics.opentargets.org/graphql), [Downloads](https://genetics.opentargets.org/downloads) |
+| 🏥 [Orphanet](https://www.orpha.net) | Portal for rare diseases and orphan drugs — disease classifications, epidemiological data, and expert centers | ⚠️ | [Downloads](https://www.orpha.net/consor/cgi-bin/Education_AboutOrphanet.php?lng=EN&stapage=ST_EDUCATION_ABOUTORPHANET_DOWNLOADS), no public API |
+| 🏥 [TCGA/GDC](https://portal.gdc.cancer.gov) | NCI Genomic Data Commons — unified repository for The Cancer Genome Atlas and other cancer genomics programs | 🤖 | [REST API](https://api.gdc.cancer.gov), [Downloads](https://portal.gdc.cancer.gov/repository) |
