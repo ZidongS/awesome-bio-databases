@@ -128,3 +128,21 @@
 | 🔬 [Tabula Sapiens](https://tabula-sapiens-portal.ds.czbiohub.org) | Cell atlas of human tissues — ~500,000 cells across 24 organs with deep annotation | ⚠️ | [Downloads](https://tabula-sapiens-portal.ds.czbiohub.org/data), limited API |
 | 🔬 [TISCH](http://tisch.comp-genomics.org) | Tumor microenvironment single-cell atlas — 2M+ cells from 79 cancer types | ⚠️ | [Downloads](http://tisch.comp-genomics.org/download/), API via gene search |
 | 🔬 [TISSUES](https://tissues.jensenlab.org) | Tissue-disease-gene associations integrating transcriptomics, proteomics, and text mining | ⚠️ | [Downloads](https://tissues.jensenlab.org/Downloads), no API |
+
+## ⚗️ Enzymes & Metabolism
+
+| Name | Description | Agent | Links |
+|------|-------------|-------|-------|
+| ⚗️ [BioCyc](https://biocyc.org) | Collection of 20,000+ Pathway/Genome Databases for sequenced organisms with metabolic reconstructions | ⚠️ | [REST API](https://biocyc.org/api), API key required; downloads limited |
+| ⚗️ [BRENDA](https://www.brenda-enzymes.org) | Comprehensive enzyme information system — 40+ million data points on enzyme function, kinetics, and structure | ⚠️ | [SOAP API](https://www.brenda-enzymes.org/soap), bulk download via academic license only |
+| ⚗️ [CAZy](http://www.cazy.org) | Carbohydrate-Active enZYmes database — classification of glycoside hydrolases, transferases, etc. | ⚠️ | [Downloads via FTP request](http://www.cazy.org/Download/), no public API |
+| ⚗️ [eQuilibrator](https://equilibrator.weizmann.ac.il) | Biochemical thermodynamics calculator with reaction Gibbs free energies | 🤖 | [REST API](https://equilibrator.weizmann.ac.il/api), [Downloads](https://gitlab.com/equilibrator/equilibrator-data) |
+| ⚗️ [ExPASy ENZYME](https://enzyme.expasy.org) | Swiss-Prot enzyme nomenclature database — EC numbers, names, reactions, and cofactors | ⚠️ | [Downloads via FTP](https://ftp.expasy.org/databases/enzyme/), no API |
+| ⚗️ [HMDB](https://hmdb.ca) | Human Metabolome Database — comprehensive metabolite information with links to pathways and enzymes | ⚠️ | [Downloads](https://hmdb.ca/downloads), no public API |
+| ⚗️ [IntEnz](https://www.ebi.ac.uk/intenz/) | Integrated relational Enzyme database — official IUBMB enzyme nomenclature with cross-references | ⚠️ | [FTP downloads](https://ftp.ebi.ac.uk/pub/databases/intenz/), SOAP API deprecated |
+| ⚗️ [KEGG](https://www.genome.jp/kegg/) | Kyoto Encyclopedia of Genes and Genomes — integrated pathway, drug, disease, and genomic resource | 🤖 | [REST API](https://www.kegg.jp/kegg/rest/), [FTP](https://www.genome.jp/kegg/download/) 💲 |
+| ⚗️ [Lipid Maps](https://www.lipidmaps.org/databases/lmsd/overview) | LIPID MAPS Structure Database — curated lipid structures, classifications, and annotations | ⚠️ | [Downloads](https://www.lipidmaps.org/databases/lmsd/download), API limited |
+| ⚗️ [MetaCyc](https://metacyc.org) | Comprehensive curated database of experimentally elucidated metabolic pathways across all domains | ⚠️ | [Downloads](https://metacyc.org/downloads.shtml), API via Pathway Tools 💲 |
+| ⚗️ [Reactome](https://reactome.org) | Curated open-source pathway database for human biological processes | 🤖 | [ContentService API](https://reactome.org/ContentService/), [Downloads](https://reactome.org/download-data) |
+| ⚗️ [Rhea](https://www.rhea-db.org) | Curated database of biochemical reactions — reaction participants, stoichiometry, and cross-references | 🤖 | [REST API](https://www.rhea-db.org/api), [Downloads](https://www.rhea-db.org/download) |
+| ⚗️ [SABIO-RK](http://sabiork.h-its.org) | Curated database of biochemical reaction kinetics — kinetic parameters, rate equations, and conditions | 🤖 | [REST API](http://sabiork.h-its.org/api/), [Downloads](http://sabiork.h-its.org/download) |
