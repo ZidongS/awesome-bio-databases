@@ -200,3 +200,35 @@
 | 🔗 [STRING](https://string-db.org) | Search Tool for the Retrieval of Interacting Genes/Proteins — known and predicted protein-protein interactions | 🤖 | [REST API](https://string-db.org/help/api/), [Downloads](https://string-db.org/cgi/download) |
 | 🔗 [TRRUST](https://www.grnpedia.org/trrust/) | Transcriptional Regulatory Relationships Unraveled by Sentence-based Text mining — human TF-target interactions | ⚠️ | [Downloads](https://www.grnpedia.org/trrust/download/), no API |
 | 🔗 [WikiPathways](https://wikipathways.org) | Community-curated biological pathway database in a wiki framework | 🤖 | [REST API](https://webservice.wikipathways.org), [Downloads](https://wikipathways.org/index.php/Download_Pathways) |
+
+## 📊 Expression & Regulation
+
+| Name | Description | Agent | Links |
+|------|-------------|-------|-------|
+| 📊 [ArrayExpress](https://www.ebi.ac.uk/biostudies/arrayexpress) | EMBL-EBI functional genomics data archive (now merged into BioStudies) | 🤖 | [REST API](https://www.ebi.ac.uk/biostudies/api/), [FTP](https://ftp.ebi.ac.uk/pub/databases/arrayexpress/) |
+| 📊 [Expression Atlas](https://www.ebi.ac.uk/gxa) | EMBL-EBI gene expression across species and conditions — baseline, differential, and proteomics expression | 🤖 | [REST API](https://www.ebi.ac.uk/gxa/api/), [Downloads](https://www.ebi.ac.uk/gxa/download) |
+| 📊 [FANTOM5](https://fantom.gsc.riken.jp/5/) | Functional Annotation of Mammalian Genome 5 — promoter-level expression atlas across primary cell types | ⚠️ | [Downloads](https://fantom.gsc.riken.jp/5/data/), no public API |
+| 📊 [GEO](https://www.ncbi.nlm.nih.gov/geo/) | Gene Expression Omnibus — NCBI's public functional genomics data repository (5M+ samples) | 🤖 | [E-Utilities API](https://www.ncbi.nlm.nih.gov/books/NBK25501/), [FTP](https://ftp.ncbi.nlm.nih.gov/geo/) |
+| 📊 [GTEx](https://gtexportal.org) | Genotype-Tissue Expression project — gene expression and eQTL data across 54 human tissues | 🤖 | [REST API](https://gtexportal.org/home/api-docs/index.html), [Downloads](https://gtexportal.org/home/downloads/adult-gtex) |
+| 📊 [HOCOMOCO](https://hocomoco11.autosome.org) | Comprehensive collection of human and mouse transcription factor binding models from ChIP-seq data | 🤖 | [Downloads](https://hocomoco11.autosome.org/downloads), API via MEME Suite format |
+| 📊 [JASPAR](https://jaspar.genereg.net) | Open-access database of curated, non-redundant transcription factor binding profiles | 🤖 | [REST API](https://jaspar.genereg.net/api/), [Downloads](https://jaspar.genereg.net/downloads/) |
+| 📊 [mirBase](https://www.mirbase.org) | microRNA database — published miRNA sequences, annotation, and predicted targets | ⚠️ | [FTP downloads](https://www.mirbase.org/download/), no API |
+| 📊 [miRTarBase](https://mirtarbase.cuhk.edu.cn) | Experimentally validated microRNA-target interactions database | ⚠️ | [Downloads](https://mirtarbase.cuhk.edu.cn/~miRTarBase/miRTarBase_2022/download.php), no API |
+| 📊 [RegNetwork](http://www.regnetworkweb.org) | Repository of transcriptional and post-transcriptional regulatory relationships in human and mouse | ❌ | Web-based query and download |
+| 📊 [Roadmap Epigenomics](http://www.roadmapepigenomics.org) | NIH Roadmap Epigenomics Project — reference epigenomic maps across human tissues and cell types | ⚠️ | [Downloads via GEO/SRA](http://www.roadmapepigenomics.org/data), no unified API |
+| 📊 [TRANSFAC](http://gene-regulation.com/pub/databases.html) | Curated database of eukaryotic transcription factors, their binding sites, and regulated genes | 💲 | Commercial license required for full access; limited public version at [PATCH](http://gene-regulation.com/pub/programs.html#patch) |
+
+## 🤝 Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on adding new databases.
+
+## 📡 API Reference
+
+Detailed API endpoints and curl examples for Agent-Ready databases are in [api-reference.md](api-reference.md).
+
+## 📜 License
+
+[![CC0](https://img.shields.io/badge/license-CC0-blue.svg)](LICENSE)
+
+The database list and descriptions in this repository are dedicated to the public domain under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/). All factual information about databases (names, URLs, access methods) is not subject to copyright.
+
