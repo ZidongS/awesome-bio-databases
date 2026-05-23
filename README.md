@@ -146,3 +146,21 @@
 | ⚗️ [Reactome](https://reactome.org) | Curated open-source pathway database for human biological processes | 🤖 | [ContentService API](https://reactome.org/ContentService/), [Downloads](https://reactome.org/download-data) |
 | ⚗️ [Rhea](https://www.rhea-db.org) | Curated database of biochemical reactions — reaction participants, stoichiometry, and cross-references | 🤖 | [REST API](https://www.rhea-db.org/api), [Downloads](https://www.rhea-db.org/download) |
 | ⚗️ [SABIO-RK](http://sabiork.h-its.org) | Curated database of biochemical reaction kinetics — kinetic parameters, rate equations, and conditions | 🤖 | [REST API](http://sabiork.h-its.org/api/), [Downloads](http://sabiork.h-its.org/download) |
+
+## 💊 Compounds & Drugs
+
+| Name | Description | Agent | Links |
+|------|-------------|-------|-------|
+| 💊 [BindingDB](https://www.bindingdb.org) | Public database of measured binding affinities for protein-ligand, protein-protein interactions | 🤖 | [REST API](https://www.bindingdb.org/api/v1/), [Downloads](https://www.bindingdb.org/rwd/bind/chemsearch/marvin/Download.jsp) |
+| 💊 [ChEBI](https://www.ebi.ac.uk/chebi/) | Chemical Entities of Biological Interest — dictionary of small chemical compounds | 🤖 | [REST API](https://www.ebi.ac.uk/chebi/webServices.do), [FTP](https://ftp.ebi.ac.uk/pub/databases/chebi/) |
+| 💊 [ChEMBL](https://www.ebi.ac.uk/chembl/) | Manually curated database of bioactive molecules with drug-like properties and associated bioactivity data | 🤖 | [REST API](https://www.ebi.ac.uk/chembl/api/data/), [Downloads](https://ftp.ebi.ac.uk/pub/databases/chembl/) |
+| 💊 [DGIdb](https://www.dgidb.org) | Drug-Gene Interaction database — 40,000+ drug-gene interactions from 30+ sources | 🤖 | [GraphQL API](https://dgidb.org/api), [Downloads](https://www.dgidb.org/downloads) |
+| 💊 [Drug Repurposing Hub](https://clue.io/repurposing) | Broad Institute's annotated collection of approved and investigational drugs for repurposing studies | 🤖 | [Downloads](https://clue.io/repurposing#download-data), API via CLUE 🔑 |
+| 💊 [DrugBank](https://go.drugbank.com) | Comprehensive drug knowledgebase — 500,000+ drug entries with targets, pathways, and interactions | ⚠️ | [Downloads](https://go.drugbank.com/releases/latest) (free for academic use), API restricted 💲 |
+| 💊 [Open Targets Platform](https://platform.opentargets.org) | Comprehensive target-disease association evidence from genetics, omics, and literature | 🤖 | [GraphQL API](https://api.platform.opentargets.org/api/v4/graphql), [Downloads](https://platform.opentargets.org/downloads) |
+| 💊 [PDBbind](http://www.pdbbind.org.cn) | Curated database of experimentally measured binding affinities for protein-ligand complexes | ⚠️ | [Downloads](http://www.pdbbind.org.cn/download.php) (registration required) |
+| 💊 [PubChem](https://pubchem.ncbi.nlm.nih.gov) | World's largest public chemistry database — 115M+ compounds with bioactivity, safety, and literature data | 🤖 | [PUG REST API](https://pubchem.ncbi.nlm.nih.gov/docs/pug-rest), [FTP](https://ftp.ncbi.nlm.nih.gov/pubchem/) |
+| 💊 [SMPDB](https://smpdb.ca) | Small Molecule Pathway Database — interactive metabolic and signaling pathway diagrams | ⚠️ | [Downloads](https://smpdb.ca/downloads), no API |
+| 💊 [STITCH](http://stitch.embl.de) | Search Tool for Interacting Chemicals — known and predicted chemical-protein interactions | ⚠️ | [Downloads](http://stitch.embl.de/cgi/download.pl), API via STRING |
+| 💊 [SuperDRUG2](http://cheminfo.charite.de/superdrug2) | Comprehensive database of approved and marketed drugs with their targets and side effects | ❌ | Web-based search and download |
+| 💊 [ZINC](https://zinc.docking.org) | Free database of commercially available compounds for virtual screening — 1.5B+ purchasable molecules | 🤖 | [REST API](https://zinc.docking.org/api/), [Downloads](https://zinc.docking.org/substances/home/) |
