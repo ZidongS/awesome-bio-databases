@@ -111,3 +111,20 @@
 | 🦠 [SILVA](https://www.arb-silva.de) | Comprehensive ribosomal RNA gene database for all three domains of life | ⚠️ | [Downloads](https://www.arb-silva.de/download/), no public API |
 | 🦠 [VFDB](http://www.mgc.ac.cn/VFs/) | Virulence Factor Database — experimentally validated bacterial virulence factors | ⚠️ | [Downloads](http://www.mgc.ac.cn/VFs/download.htm), web-based API |
 | 🦠 [ViPR](https://www.viprbrc.org) | Virus Pathogen Resource — integrated data for human pathogenic viruses | ⚠️ | [Downloads](https://www.viprbrc.org/brc/publicData.spg), API via BV-BRC |
+
+## 🔬 Single Cell
+
+| Name | Description | Agent | Links |
+|------|-------------|-------|-------|
+| 🔬 [Azimuth](https://azimuth.hubmapconsortium.org) | Reference-based automated cell type annotation for single-cell data | 🤖 | [API via R/Python packages](https://azimuth.hubmapconsortium.org/references/), [Downloads](https://azimuth.hubmapconsortium.org/references/) |
+| 🔬 [CZ CELLxGENE](https://cellxgene.cziscience.com) | Chan Zuckerberg Initiative single-cell data platform — standardized scRNA-seq datasets with cell annotation | 🤖 | [REST API](https://api.cellxgene.cziscience.com/curation/v1/), [Downloads](https://cellxgene.cziscience.com/datasets) |
+| 🔬 [DISCO](https://www.immunesinglecell.org) | Database of Immune Cell eQTLs, scRNA-seq, and cell-type expression profiles in immune cells | ⚠️ | [Downloads](https://www.immunesinglecell.org/download), web-based |
+| 🔬 [Human Cell Atlas](https://www.humancellatlas.org) | International open atlas of all human cells — single-cell reference maps across tissues | 🤖 | [Data Portal API](https://data.humancellatlas.org/apis/api-documentation), [Downloads](https://data.humancellatlas.org/explore/projects) |
+| 🔬 [JingleBells](https://jinglebells.bgu.ac.il) | Standardized scRNA-seq datasets in BAM format for benchmarking immune repertoire analysis | ⚠️ | [Downloads](https://jinglebells.bgu.ac.il/), no API |
+| 🔬 [PanglaoDB](https://panglaodb.se) | Single-cell transcriptomics resource for mouse and human — cell type markers and expression data | ⚠️ | [Downloads](https://panglaodb.se/data_release.html), no API |
+| 🔬 [scRNASeqDB](https://bioinfo.uth.edu/scrnaseqdb/) | Human single-cell RNA-seq gene expression profiles across conditions and cell types | ❌ | Web-based query only |
+| 🔬 [Single Cell Expression Atlas](https://www.ebi.ac.uk/gxa/sc/home) | EMBL-EBI single-cell expression atlas — standardized reprocessing of scRNA-seq datasets | 🤖 | [REST API](https://www.ebi.ac.uk/gxa/sc/api/), [Downloads](https://www.ebi.ac.uk/gxa/sc/experiments) |
+| 🔬 [Single Cell Portal](https://singlecell.broadinstitute.org/single_cell) | Broad Institute's single-cell data portal — curated scRNA-seq studies | ⚠️ | [API](https://singlecell.broadinstitute.org/single_cell/api/v1/), downloads per study |
+| 🔬 [Tabula Sapiens](https://tabula-sapiens-portal.ds.czbiohub.org) | Cell atlas of human tissues — ~500,000 cells across 24 organs with deep annotation | ⚠️ | [Downloads](https://tabula-sapiens-portal.ds.czbiohub.org/data), limited API |
+| 🔬 [TISCH](http://tisch.comp-genomics.org) | Tumor microenvironment single-cell atlas — 2M+ cells from 79 cancer types | ⚠️ | [Downloads](http://tisch.comp-genomics.org/download/), API via gene search |
+| 🔬 [TISSUES](https://tissues.jensenlab.org) | Tissue-disease-gene associations integrating transcriptomics, proteomics, and text mining | ⚠️ | [Downloads](https://tissues.jensenlab.org/Downloads), no API |
