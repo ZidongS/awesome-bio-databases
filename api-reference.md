@@ -422,3 +422,91 @@ Each entry includes:
 - **Example:** `curl "https://card.mcmaster.ca/api/ontology"`
 - **Response:** JSON
 - **Docs:** https://card.mcmaster.ca/api
+
+### BV-BRC REST API
+- **Base URL:** `https://www.bv-brc.org/api/`
+- **Auth:** None
+- **Example:** `curl "https://www.bv-brc.org/api/genome"`
+- **Response:** JSON
+- **Docs:** https://www.bv-brc.org/api
+
+### Greengenes2 FTP
+- **Base URL:** `https://ftp.microbio.me/greengenes_release/`
+- **Auth:** None
+- **Example:** `curl "https://ftp.microbio.me/greengenes_release/"`
+- **Response:** Directory listing
+- **Docs:** https://greengenes2.ucsd.edu
+
+## Additional Protein & Structure APIs
+
+### MobiDB REST API
+- **Base URL:** `https://mobidb.org/api/`
+- **Auth:** None
+- **Example:** `curl "https://mobidb.org/api/download?format=json&acc=P00519"`
+- **Response:** JSON
+- **Docs:** https://mobidb.org/api_docs
+
+### SWISS-MODEL Repository API
+- **Base URL:** `https://swissmodel.expasy.org/repository/`
+- **Auth:** None
+- **Example:** `curl "https://swissmodel.expasy.org/repository/uniprot/P00519.json"`
+- **Response:** JSON
+- **Docs:** https://swissmodel.expasy.org/docs/repository_help#api
+
+### SAbDab REST API
+- **Base URL:** `https://opig.stats.ox.ac.uk/webapps/sabdab-sabpred/sabdab/api/`
+- **Auth:** None
+- **Example:** `curl "https://opig.stats.ox.ac.uk/webapps/sabdab-sabpred/sabdab/api/summary/?pdb=4hhb"`
+- **Response:** JSON
+- **Docs:** https://opig.stats.ox.ac.uk/webapps/sabdab-sabpred/sabdab/api/
+
+## Additional APIs
+
+### DepMap Portal Downloads API
+- **Base URL:** `https://depmap.org/portal/api/downloads`
+- **Auth:** None
+- **Example:** `curl "https://depmap.org/portal/api/downloads"`
+- **Response:** JSON
+- **Docs:** https://depmap.org/portal/download/all/
+
+### Drug Repurposing Hub
+- **Base URL:** `https://clue.io/repurposing`
+- **Auth:** 🔑 Free CLUE account required
+- **Example:** `curl "https://clue.io/repurposing#download-data"`
+- **Response:** Web page with download links
+- **Docs:** https://clue.io/repurposing
+
+### HOCOMOCO Downloads
+- **Base URL:** `https://hocomoco11.autosome.org/downloads`
+- **Auth:** None
+- **Example:** `curl "https://hocomoco11.autosome.org/downloads"`
+- **Response:** Directory listing / web page
+- **Docs:** https://hocomoco11.autosome.org
+
+### Azimuth References
+- **Base URL:** `https://azimuth.hubmapconsortium.org/references/`
+- **Auth:** None
+- **Example:** `curl "https://azimuth.hubmapconsortium.org/references/"`
+- **Response:** JSON
+- **Docs:** https://azimuth.hubmapconsortium.org/references/
+
+### Hetionet Knowledge Graph
+- **Base URL:** `https://github.com/hetio/hetionet`
+- **Auth:** None
+- **Example:** `git clone https://github.com/hetio/hetionet.git`
+- **Response:** Neo4j database dump (JSON/CSV)
+- **Docs:** https://het.io
+
+### PrimeKG Knowledge Graph
+- **Base URL:** `https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IXA7BM`
+- **Auth:** None
+- **Example:** Download via Dataverse API or direct link
+- **Response:** CSV files
+- **Docs:** https://www.denisf.org/post/primekg
+
+### Plant Reactome
+- **Base URL:** Shares Reactome ContentService API
+- **Auth:** None
+- **Example:** `curl "https://reactome.org/ContentService/data/query/AT1G01010"`
+- **Response:** JSON
+- **Docs:** https://plantreactome.gramene.org
